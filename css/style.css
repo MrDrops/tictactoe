@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(121, 124, 124, 0.8);
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 10vw;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 2vw;
+    margin-bottom: 0;
+}
+
+button {
+    padding: 5px 10px 5px 10px;
+    border: 2px solid rgba(44, 45, 46, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px black;
+}
+
+button:hover {
+    box-shadow: 3px 3px 2px black;
+    transform: scale(0.98);
+}

@@ -1,0 +1,144 @@
+
+
+body {
+    position: relative;
+    background-color: rgba(129, 138, 175, 0.74);
+    background-image: url(https://i.imgur.com/6J43sK3.png);
+    text-align: center;
+    height: 100vh;;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    background-color: rgba(78, 149, 229, 1.0);
+    box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgba(207, 209, 210, 0.8);
+    text-shadow: 4px 4px 2px black;
+    margin: 2vw 8vw 3vw 8vw;
+    margin-top: 3vw;
+    font-size: 6vw;
+}
+
+h3 {
+    margin: 2vw;
+}
+
+span.rows {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.score-banner {
+    display: inline-block;
+    padding:1vw;
+    margin: 1vw;
+    border-radius: 5px;
+    font-size: 3vw;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(112, 112, 112, 0.8);
+    background-color: rgba(78, 149, 229, 1.0);
+}
+
+.text-display {
+    display: inline-block;
+    background-color: rgba(78, 149, 229, 1.0);
+    color: white;
+    text-shadow: 2px 2px 1px rgba(112, 112, 112, 0.8);
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 5px;
+    font-size: 4vw;
+    margin-bottom: 4vw;
+}
+
+.board {
+    display : inline-block;
+    background: url(https://i.imgur.com/HfwAxgY.png);
+    width: 67vw;
+    height: 67vw;
+    margin: 0;
+    padding: 1vh;
+    border: 5px solid black;
+    border-radius: 25px;;
+}
+
+.tile-off {
+    width: 20vw;
+    height: 20vw;
+    margin: 1vw;
+    padding: 0;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgba(92, 88, 88, 0.50);
+    box-shadow: 10px 10px 5px 1px rgba(0 , 0 ,0 , 0.40);
+}
+
+.tile-off:hover {
+    width: 20vw;
+    height: 20vw;
+    margin: 1vw;
+    transform: scale(0.98);
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgba(92, 88, 88, 0.50);
+    box-shadow: 5px 5px 5px 1px rgba(0 , 0 ,0 , 0.40);
+}
+
+.tile-on {
+    width: 20vw;
+    height: 20vw;
+    margin: 1vw;
+    transform: scale(0.98);
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgba(92, 88, 88, 0.50);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 5px 5px 5px 1px rgba(0 , 0 ,0 , 0.40);
+}
+
+.piece {
+    max-width: 99%;
+    max-height: auto;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+}
+
+.popup-banner {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    color: white;
+    font-size: 3vw;
+    transform: translate(-50%, -50%);
+    background-image: url(https://i.imgur.com/ILz6el8.png);
+    border: 5px solid white;
+}
+
+.end-banner {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    color: white;
+    font-size: 4vw;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+    background-image: url(https://i.imgur.com/ILz6el8.png);
+    border: 5px solid white;
+}
+
+.new-game-btn {
+    padding: 5px 15px 5px 15px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+
+}

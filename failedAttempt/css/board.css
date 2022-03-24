@@ -1,0 +1,69 @@
+* {
+    border: 1px solid black;
+}
+
+body {
+    background-color: rgba(129, 138, 175, 0.74);
+    text-align: center;
+    height: 100vh;;
+    margin: 0;
+}
+
+span {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.board {
+    display : inline-block;
+    background: url(https://i.imgur.com/HfwAxgY.png);
+    width: 67vh;
+    height: 67vh;
+    margin: 0;
+    padding: 1vh;
+    border: 5px solid black;
+    border-radius: 25px;;
+}
+
+.tile-off {
+    width: 20vh;
+    height: 20vh;
+    margin: 1vh;
+    padding: 0;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgba(92, 88, 88, 0.50);
+    box-shadow: 10px 10px 5px 1px rgba(0 , 0 ,0 , 0.40);
+}
+
+.tile-off:hover {
+    width: 20vh;
+    height: 20vh;
+    margin: 1vh;
+    transform: scale(0.98);
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgba(92, 88, 88, 0.50);
+    box-shadow: 5px 5px 5px 1px rgba(0 , 0 ,0 , 0.40);
+}
+
+.tile-on {
+    width: 20vh;
+    height: 20vh;
+    margin: 1vh;
+    transform: scale(0.98);
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgba(92, 88, 88, 0.50);
+    box-shadow: 5px 5px 5px 1px rgba(0 , 0 ,0 , 0.40);
+}
+
+.piece {
+    max-width: 100%;
+    max-height: auto;
+    margin: 0;
+    object-fit: fill;
+}
